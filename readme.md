@@ -1,9 +1,6 @@
 # Lexical analyzer
 CPSC 323 Project 1: Lexical analyzer in Python
 
-## Group Members
-Hao Thai, James Peou, Renell Miller
-
 ### Development
 You will need Python 3+ to run this program.
 
