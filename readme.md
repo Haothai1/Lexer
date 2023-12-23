@@ -1,5 +1,5 @@
 # Lexical analyzer
-CPSC 323 Project 1: Lexical analyzer in Python
+Lexical analyzer in Python
 
 ### Development
 You will need Python 3+ to run this program.
