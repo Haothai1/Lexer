@@ -6,9 +6,9 @@ You will need Python 3+ to run this program.
 
 To run the program, type the following command
 
-` ` ` `
+` ` ` 
 python3 main.py
- ` ` ` `
+ ` ` ` 
 Note that `inputs_scode.txt` must be in same directory as `lexer.py` in order for the program to execute.
 
 After running the program a `output.txt` will be created showing all of the tokens and lexemes provided from `inputs_scode.txt`. 
