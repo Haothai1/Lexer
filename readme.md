@@ -15,6 +15,62 @@ python3 main.py
 
 3. After running the program a `output.txt` will be created showing all of the tokens and lexemes provided from `inputs_scode.txt`. 
 
+Example input and output files:
+`inputs_scode.txt`:
+````
+x/y = a + b * c;
+if (x == y) a = b - 5:
+      a % b
+    print ("yes")  
+while (t < upper) s = 22.00;
+
+float
+````
+`output.txt`:
+````
+token	Lexeme
+Identifer	x
+Operator	/
+Identifer	y
+Operator	=
+Identifer	a
+Operator	+
+Identifer	b
+Operator	*
+Identifer	c
+Separator	;
+keyword	if
+Separator	(
+Identifer	x
+Operator	=
+Operator	=
+Identifer	y
+Separator	)
+Identifer	a
+Operator	=
+Identifer	b
+Operator	-
+Identifer	a
+Operator	%
+Identifer	b
+Identifer	print
+Separator	(
+Identifer	yes
+Separator	)
+keyword	while
+Separator	(
+Identifer	t
+Operator	<
+Identifer	upper
+Separator	)
+Identifer	s
+Operator	=
+Real	22.00
+Separator	;
+keyword	float
+
+````
+
 #### Description
 
 This program is a lexer which converts source text from `inputs_scode.txt` and processes it into a sequence of 
