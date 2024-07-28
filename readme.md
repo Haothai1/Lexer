@@ -9,9 +9,11 @@ To run the program, type the following command
 ```` 
 python3 main.py
 ````
-Note that `inputs_scode.txt` must be in same directory as `lexer.py` in order for the program to execute.
 
-After running the program a `output.txt` will be created showing all of the tokens and lexemes provided from `inputs_scode.txt`. 
+1. Put your statement in the `inputs_scode.txt` file. (Note that `inputs_scode.txt` must be in same directory as `lexer.py` in order for the program to execute.)
+2. Open your terminal and make sure python is installed. Then type `python main.py` to run the program.
+
+3. After running the program a `output.txt` will be created showing all of the tokens and lexemes provided from `inputs_scode.txt`. 
 
 #### Description
 
